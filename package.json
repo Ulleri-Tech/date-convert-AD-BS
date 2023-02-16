@@ -1,11 +1,11 @@
 {
   "name": "date-convert-ad-bs",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Convert AD to BS and vice versa",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc",
+    "build": "rollup -c",
     "prepare": "npm run build"
   },
   "repository": {
@@ -24,7 +24,13 @@
   },
   "homepage": "https://github.com/Ulleri-Tech/date-convert-AD-BS#readme",
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "rollup": "^3.15.0",
+    "rollup-plugin-typescript2": "^0.34.1",
     "typescript": "^4.9.5"
   },
-  "files": ["/dist/**/*"]
+  "files": [
+    "/dist/**/*"
+  ]
 }
