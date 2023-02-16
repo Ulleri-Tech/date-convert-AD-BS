@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "ES5",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "declaration": true,
+    "strict": true,
+    "outDir": "./dist",
+    "skipLibCheck": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "**/__test__/"]
+}

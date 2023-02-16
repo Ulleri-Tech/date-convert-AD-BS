@@ -1,0 +1,30 @@
+{
+  "name": "date-convert-ad-bs",
+  "version": "0.1.0",
+  "description": "Convert AD to BS and vice versa",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ulleri-Tech/date-convert-AD-BS.git"
+  },
+  "keywords": [
+    "Convert Date",
+    "AD to BS",
+    "BS to AD"
+  ],
+  "author": "Binij Shrestha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ulleri-Tech/date-convert-AD-BS/issues"
+  },
+  "homepage": "https://github.com/Ulleri-Tech/date-convert-AD-BS#readme",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "files": ["/dist/**/*"]
+}
