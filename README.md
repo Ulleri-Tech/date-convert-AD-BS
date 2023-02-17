@@ -17,7 +17,7 @@ yarn add date-convert-ad-bs
 How to Use
 
 ```javascript
-<scrip>
+<script>
   import {ADTOBS, BSTOAD} from 'date-convert-ad-bs';
   console.log(ADTOBS(2023,5,29)); // ~ 2080-03-15
   console.log(BSTOAD(2080,2,15)); // ~ 2023-06-29
