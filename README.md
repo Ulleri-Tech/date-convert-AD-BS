@@ -1,10 +1,10 @@
-# Mono-Repo for AD BS Date convertor
+# Mono-Repo Library to convert AD to BS and vice-versa
 
-This is a mono-repo containing projects.
+This is a mono-repo contains both javascript and python library.
 
-# Javascript Library
+## 1. Javascript/Node Library
 
-## Installations
+### Installations
 
 ```
 npm install date-convert-ad-bs
@@ -14,7 +14,7 @@ pnpm install date-convert-ad-bs
 yarn add date-convert-ad-bs
 ```
 
-## Usage
+### Usage
 
 How to Use
 
@@ -28,7 +28,7 @@ console.log(ADTOBS(2023, 5, 29)); // ~ 2080-03-14
 console.log(BSTOAD(2080, 2, 15)); // ~ 2023-06-30
 ```
 
-### CommonJS Syntax
+#### CommonJS Syntax
 
 ```javascript
 const converter = require("date-convert-ad-bs");
@@ -37,9 +37,9 @@ console.log(converter.ADTOBS(2023, 5, 29)); // ~ 2080-03-14
 console.log(converter.BSTOAD(2080, 2, 15)); // ~ 2023-06-30
 ```
 
-# Python Library
+## 2. Python Library
 
-## Installation
+### Installation
 
 You can install the package using pip:
 
@@ -52,7 +52,7 @@ pip3 install date-convert-ad-bs
 
 ```
 
-## Usage
+### Usage
 
 To use the package, simply import it and call its functions:
 
