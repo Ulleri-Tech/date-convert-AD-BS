@@ -4,11 +4,11 @@
 name: Publish Date Converter Node Library
 
 # Manually Release
-"on":
+on:
   release:
     types: [created]
-  paths:
-    - "javascript-lib/**"
+    paths:
+      - "javascript-lib/**"
 
 defaults:
   run:
