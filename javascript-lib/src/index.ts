@@ -91,7 +91,6 @@ export function BSTOAD(year: number, month: number, day: number): string {
   const final_time =
     Math.ceil(new Date(MIN_AD_YEAR, MIN_AD_MONTH, MIN_AD_DAY).getTime()) +
     dayCount * MILLS_IN_DAY;
-  console.log(new Date(MIN_AD_YEAR, MIN_AD_MONTH, MIN_AD_DAY));
   return new Date(final_time).toLocaleDateString("en-ca");
 }
 
