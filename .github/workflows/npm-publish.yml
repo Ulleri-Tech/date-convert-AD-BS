@@ -7,6 +7,12 @@ name: Publish Date Converter Node Library
 on:
   release:
     types: [created]
+  paths:
+    - "javascript-lib/**"
+
+defaults:
+  run:
+    working-directory: javascript-lib
 
 jobs:
   publish-npm:
