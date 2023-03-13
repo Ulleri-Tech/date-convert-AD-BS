@@ -1,8 +1,8 @@
-# Mono-Repo for AD BS Date convertor
+# Mono-Repo Library to convert AD to BS and vice-versa
 
-This is a mono-repo containing projects.
+This is a mono-repo contains both javascript and python library.
 
-# Javascript Library
+1. Javascript/Node Library
 
 ## Installations
 
@@ -37,7 +37,7 @@ console.log(converter.ADTOBS(2023, 5, 29)); // ~ 2080-03-14
 console.log(converter.BSTOAD(2080, 2, 15)); // ~ 2023-06-30
 ```
 
-# Python Library
+2. Python Library
 
 ## Installation
 
